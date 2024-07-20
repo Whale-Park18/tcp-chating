@@ -7,6 +7,20 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server", "server\server.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client", "client\client.vcxproj", "{F8234F87-D087-4E03-A9CA-45D158BBCDD5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "type", "type", "{53CD1920-0E04-4EFB-97F0-4D39CFC4AFD8}"
+	ProjectSection(SolutionItems) = preProject
+		include\type\safe_data.h = include\type\safe_data.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "safe_data", "safe_data", "{3A4809E9-1573-40F0-B889-A7C6C87DE55B}"
+	ProjectSection(SolutionItems) = preProject
+		include\type\safe_data\basic_safe_data.h = include\type\safe_data\basic_safe_data.h
+		include\type\safe_data\safe_handle.h = include\type\safe_data\safe_handle.h
+		include\type\safe_data\safe_socket.h = include\type\safe_data\safe_socket.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{551A88A7-8E12-41BC-9CE6-2E04BF9CFA8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -34,6 +48,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53CD1920-0E04-4EFB-97F0-4D39CFC4AFD8} = {551A88A7-8E12-41BC-9CE6-2E04BF9CFA8E}
+		{3A4809E9-1573-40F0-B889-A7C6C87DE55B} = {53CD1920-0E04-4EFB-97F0-4D39CFC4AFD8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8569527-A49C-4340-88A4-C0F82497ECC9}

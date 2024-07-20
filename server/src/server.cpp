@@ -5,6 +5,8 @@
 #include "framework.h"
 #include "server.h"
 
+#include "type\safe_data.h"
+
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
