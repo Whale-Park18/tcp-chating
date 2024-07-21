@@ -18,7 +18,7 @@ CWinApp theApp;
 
 using namespace std;
 
-int main()
+int mfc_init()
 {
     int nRetCode = 0;
 
@@ -46,4 +46,9 @@ int main()
     }
 
     return nRetCode;
+}
+
+int main()
+{
+    type::safe_data::safe_socket listenSock(socket(PF_INET, SOCK_STREAM, 0));
 }
