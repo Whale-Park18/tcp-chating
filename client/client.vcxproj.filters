@@ -9,26 +9,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\client.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\clientDlg.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\pch.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="src\client.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\clientDlg.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\framework.h">
-      <Filter>src</Filter>
-    </ClInclude>
     <ClInclude Include="src\pch.h">
       <Filter>src</Filter>
     </ClInclude>

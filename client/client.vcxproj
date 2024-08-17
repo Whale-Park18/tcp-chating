@@ -19,16 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\client.cpp" />
-    <ClCompile Include="src\clientDlg.cpp" />
-    <ClCompile Include="src\pch.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="resource\Resource.h" />
     <ClInclude Include="resource\targetver.h" />
-    <ClInclude Include="src\client.h" />
-    <ClInclude Include="src\clientDlg.h" />
-    <ClInclude Include="src\framework.h" />
     <ClInclude Include="src\pch.h" />
   </ItemGroup>
   <ItemGroup>
