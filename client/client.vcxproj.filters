@@ -2,31 +2,15 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="src">
-      <UniqueIdentifier>{69e2224f-ff9f-4ca0-9b05-8c783bcdc754}</UniqueIdentifier>
+      <UniqueIdentifier>{053daa64-dd56-4582-8bec-dbbfdfb89265}</UniqueIdentifier>
     </Filter>
-    <Filter Include="resources">
-      <UniqueIdentifier>{fa759586-edb3-4dcc-875d-ab625937eea1}</UniqueIdentifier>
+    <Filter Include="resource">
+      <UniqueIdentifier>{9963d208-801e-41dd-8bed-1814574503cf}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\pch.h">
+    <ClCompile Include="src\main.cpp">
       <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="resource\Resource.h">
-      <Filter>resources</Filter>
-    </ClInclude>
-    <ClInclude Include="resource\targetver.h">
-      <Filter>resources</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="resource\client.rc">
-      <Filter>resources</Filter>
-    </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="resource\client.rc2">
-      <Filter>resources</Filter>
-    </None>
+    </ClCompile>
   </ItemGroup>
 </Project>

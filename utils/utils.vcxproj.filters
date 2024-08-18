@@ -7,15 +7,36 @@
     <Filter Include="resource">
       <UniqueIdentifier>{e218c37d-67f1-4825-940b-858f5c02eef3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\safe_data">
+      <UniqueIdentifier>{8f24e8fb-2a1a-441a-b5bb-0433bafdb9f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\network">
+      <UniqueIdentifier>{7191fd6a-67ad-471d-a015-f8c9eefc6ee6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\pch.h">
+    <ClInclude Include="src\safe_data.h">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\safe_data\basic_safe_data.h">
+      <Filter>src\safe_data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\safe_data\safe_handle.h">
+      <Filter>src\safe_data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\safe_data\safe_socket.h">
+      <Filter>src\safe_data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\net_utils.h">
+      <Filter>src\network</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\utils.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="src\network\net_utils.cpp">
+      <Filter>src\network</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

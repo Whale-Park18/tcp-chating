@@ -1,7 +1,7 @@
 #pragma once
 #include "basic_safe_data.h"
 
-namespace type::safe_data
+namespace park18::safe_data
 {
 	struct default_closehandle
 	{

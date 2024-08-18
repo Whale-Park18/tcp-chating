@@ -1,24 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="resource">
-      <UniqueIdentifier>{dee20fff-91e1-47a7-a6d0-7afe20149af7}</UniqueIdentifier>
-    </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{0484731c-1700-4f43-b1fe-c59a63d17fdc}</UniqueIdentifier>
+      <UniqueIdentifier>{55bbc46f-a1a2-410b-adb1-a92374c17aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{685345af-2366-4997-b7f7-7228e1c6bedd}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\pch.h">
+    <ClCompile Include="src\main.cpp">
       <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="resources\Resource.h">
-      <Filter>resource</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="resources\server.rc">
-      <Filter>resource</Filter>
-    </ResourceCompile>
+    </ClCompile>
   </ItemGroup>
 </Project>

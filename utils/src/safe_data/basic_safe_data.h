@@ -1,10 +1,9 @@
 #pragma once
+#include "global.h"
+
 #include <concepts>
 
-#include <WinSock2.h>
-#include <Windows.h>
-
-namespace type::safe_data
+namespace park18::safe_data
 {
 	template<typename T, typename Deleter>
 	requires std::is_same_v<T, HANDLE> || std::is_same_v<T, SOCKET>
