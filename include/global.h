@@ -11,6 +11,7 @@
 //*********************************************
 #include <Windows.h>	// Windows API
 #include <WinSock2.h>	// Windows socket
+#include <WS2tcpip.h>	// Windows socket
 
 //*********************************************
 // Built-in header(c++)
